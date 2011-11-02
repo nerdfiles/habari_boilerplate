@@ -36,7 +36,7 @@
 <!-- ================================================================================= STYLES == -->
 
 	<link 
-        href="<?php Site::out_url( 'theme' ); ?>/_assets/css/global.css"
+        href="<?php Site::out_url( 'theme' ); ?>/_assets/css/compass/stylesheets/global.css"
 	   rel="stylesheet" 
 	   media="all" />
 	
