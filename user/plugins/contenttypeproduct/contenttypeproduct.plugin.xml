@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<pluggable type="plugin">
+  <name>Content Type: Product</name>
+  <license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
+  <url>http://habariproject.org/</url>
+  <author url="http://habariproject.org/">The Habari Community</author>
+  <author url="http://nerdfiles.net/">nerdfiles</author>
+  <version>0.0.1a</version>
+  <description><![CDATA[Products.]]></description>
+  <copyright>2011</copyright>
+  <help>
+    <value>
+      <![CDATA[Looking for help?]]>
+    </value>
+  </help>
+</pluggable>
