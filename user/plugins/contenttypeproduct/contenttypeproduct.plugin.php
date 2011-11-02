@@ -35,7 +35,7 @@
 	 **/
 	public function action_plugin_activation( $plugin_file ) {
     // add the content type.
-		Post::add_new_type( 'Product' );
+		Post::add_new_type( 'product' );
 		
 		// Give anonymous users access
 		$group = UserGroup::get_by_name('anonymous');
@@ -59,7 +59,7 @@
 	 **/
 	public function filter_post_type_display($type, $foruse) { 
 		$names = array( 
-			'event' => array(
+			'product' => array(
 				'singular' => _t('Product'),
 				'plural' => _t('Products'),
 			)
